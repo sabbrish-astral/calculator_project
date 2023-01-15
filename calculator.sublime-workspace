@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
 				"mar",
 				"margin-top"
 			],
@@ -80,10 +84,6 @@
 				"word-spacing"
 			],
 			[
-				"font",
-				"font-style"
-			],
-			[
 				"fon",
 				"font-size"
 			]
@@ -91,25 +91,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n \n<head>\n  <meta charset=\"utf-8\">\n  <title>Simple Calculator using HTML, CSS and JavaScript</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n \n<body>\n \n<table class=\"calculator\" >\n  <tr>\n    <td colspan=\"3\"> <input class=\"display-box\" type=\"text\" id=\"result\" disabled /> </td>\n \n    <!-- clearScreen() function clears all the values -->\n    <td> <input type=\"button\" value=\"C\" onclick=\"clearScreen()\" id=\"btn\" /> </td>\n  </tr>\n  <tr>\n    <!-- display() function displays the value of clicked button -->\n    <td> <input type=\"button\" value=\"1\" onclick=\"display('1')\" /> </td>\n    <td> <input type=\"button\" value=\"2\" onclick=\"display('2')\" /> </td>\n    <td> <input type=\"button\" value=\"3\" onclick=\"display('3')\" /> </td>\n    <td> <input type=\"button\" value=\"/\" onclick=\"display('/')\" /> </td>\n  </tr>\n  <tr>\n    <td> <input type=\"button\" value=\"4\" onclick=\"display('4')\" /> </td>\n    <td> <input type=\"button\" value=\"5\" onclick=\"display('5')\" /> </td>\n    <td> <input type=\"button\" value=\"6\" onclick=\"display('6')\" /> </td>\n    <td> <input type=\"button\" value=\"-\" onclick=\"display('-')\" /> </td>\n  </tr>\n  <tr>\n    <td> <input type=\"button\" value=\"7\" onclick=\"display('7')\" /> </td>\n    <td> <input type=\"button\" value=\"8\" onclick=\"display('8')\" /> </td>\n    <td> <input type=\"button\" value=\"9\" onclick=\"display('9')\" /> </td>\n    <td> <input type=\"button\" value=\"+\" onclick=\"display('+')\" /> </td>\n  </tr>\n  <tr>\n    <td> <input type=\"button\" value=\".\" onclick=\"display('.')\" /> </td>\n    <td> <input type=\"button\" value=\"0\" onclick=\"display('0')\" /> </td>\n \n    <!-- calculate() function evaluates the mathematical expression -->\n    <td> <input type=\"button\" value=\"=\" onclick=\"calculate()\" id=\"btn\" /> </td>\n    <td> <input type=\"button\" value=\"*\" onclick=\"display('*')\" /> </td>\n  </tr>\n</table>\n \n<script type=\"text/javascript\" src=\"script.js\"></script>\n \n</body>\n \n</html>",
-			"settings":
-			{
-				"buffer_size": 1931,
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAAiwcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -143,6 +124,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/SUCCESS/OneDrive/Desktop/code/css/calculator.css",
 		"/C/Users/SUCCESS/OneDrive/Desktop/code/css/java-style.css",
 		"/C/Users/SUCCESS/OneDrive/Desktop/code/index.html",
 		"/C/Users/SUCCESS/OneDrive/Desktop/code/css/style.css",
@@ -194,35 +176,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1931,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1931,
-								1931
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 385.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
