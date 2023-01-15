@@ -1,0 +1,311 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"li",
+				"li"
+			],
+			[
+				"u",
+				"ul"
+			],
+			[
+				"fri",
+				"friend2"
+			],
+			[
+				"ani",
+				"animal1"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"list",
+				"list-style-image"
+			],
+			[
+				"bodd",
+				"border-bottom-width"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"borer",
+				"border-right"
+			],
+			[
+				"word",
+				"word-spacing"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n \n<head>\n  <meta charset=\"utf-8\">\n  <title>Simple Calculator using HTML, CSS and JavaScript</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n \n<body>\n \n<table class=\"calculator\" >\n  <tr>\n    <td colspan=\"3\"> <input class=\"display-box\" type=\"text\" id=\"result\" disabled /> </td>\n \n    <!-- clearScreen() function clears all the values -->\n    <td> <input type=\"button\" value=\"C\" onclick=\"clearScreen()\" id=\"btn\" /> </td>\n  </tr>\n  <tr>\n    <!-- display() function displays the value of clicked button -->\n    <td> <input type=\"button\" value=\"1\" onclick=\"display('1')\" /> </td>\n    <td> <input type=\"button\" value=\"2\" onclick=\"display('2')\" /> </td>\n    <td> <input type=\"button\" value=\"3\" onclick=\"display('3')\" /> </td>\n    <td> <input type=\"button\" value=\"/\" onclick=\"display('/')\" /> </td>\n  </tr>\n  <tr>\n    <td> <input type=\"button\" value=\"4\" onclick=\"display('4')\" /> </td>\n    <td> <input type=\"button\" value=\"5\" onclick=\"display('5')\" /> </td>\n    <td> <input type=\"button\" value=\"6\" onclick=\"display('6')\" /> </td>\n    <td> <input type=\"button\" value=\"-\" onclick=\"display('-')\" /> </td>\n  </tr>\n  <tr>\n    <td> <input type=\"button\" value=\"7\" onclick=\"display('7')\" /> </td>\n    <td> <input type=\"button\" value=\"8\" onclick=\"display('8')\" /> </td>\n    <td> <input type=\"button\" value=\"9\" onclick=\"display('9')\" /> </td>\n    <td> <input type=\"button\" value=\"+\" onclick=\"display('+')\" /> </td>\n  </tr>\n  <tr>\n    <td> <input type=\"button\" value=\".\" onclick=\"display('.')\" /> </td>\n    <td> <input type=\"button\" value=\"0\" onclick=\"display('0')\" /> </td>\n \n    <!-- calculate() function evaluates the mathematical expression -->\n    <td> <input type=\"button\" value=\"=\" onclick=\"calculate()\" id=\"btn\" /> </td>\n    <td> <input type=\"button\" value=\"*\" onclick=\"display('*')\" /> </td>\n  </tr>\n</table>\n \n<script type=\"text/javascript\" src=\"script.js\"></script>\n \n</body>\n \n</html>",
+			"settings":
+			{
+				"buffer_size": 1931,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAiwcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/SUCCESS/OneDrive/Desktop/code/css/java-style.css",
+		"/C/Users/SUCCESS/OneDrive/Desktop/code/index.html",
+		"/C/Users/SUCCESS/OneDrive/Desktop/code/css/style.css",
+		"/C/Users/SUCCESS/OneDrive/Desktop/code/rough.html",
+		"/C/Users/SUCCESS/OneDrive/Desktop/code/roughstyle.css",
+		"/C/Users/SUCCESS/OneDrive/Desktop/images/style.css",
+		"/C/Users/SUCCESS/OneDrive/Desktop/images/stylesheets.css",
+		"/C/Users/SUCCESS/OneDrive/Desktop/images/style",
+		"/E/project/index1.html",
+		"/E/project/index.html",
+		"/C/Users/SUCCESS/OneDrive/Desktop/images/index.html",
+		"/C/Users/SUCCESS/OneDrive/Desktop/images/in",
+		"/C/Users/SUCCESS/OneDrive/Desktop/images/i"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1931,
+								1931
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 385.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "calculator.html",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
